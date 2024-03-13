@@ -1,4 +1,4 @@
-/* styles.css */
+
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
@@ -9,7 +9,7 @@ body {
    height:80px;
    width:auto;
    margin-top: 20px;
-   margin-bottom: 20px;
+   margin-bottom: 15px;
    margin-left:15px;
 }
 
@@ -138,8 +138,11 @@ body {
     padding: 20px;
     margin-top: 4px;
     text-decoration: none;
-    
-   
+    transition: color 0.3s;
+}
+
+footer a:hover{
+    color:white;
 }
 
 .footertext{
@@ -156,13 +159,22 @@ body {
 }
 .icons{
     justify-content: space-between;
-    margin-left:250px;
+    margin-left:350px;
     margin-top: 23px;
+    color:white;
+   
 }
 .insta,.face{
     height:22px;
     width:auto;
-    margin-left: 10px;
+    margin-left: 1px;
+    opacity:0.7;
     
 }
+
+.insta:hover,.face:hover{
+    opacity:1;
+}
+
+
 
