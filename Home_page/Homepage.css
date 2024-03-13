@@ -1,0 +1,168 @@
+/* styles.css */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+   height:80px;
+   width:auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left:15px;
+}
+
+.login_button{
+    float:right;
+    margin-top:35px;
+    margin-right:35px;
+    border-radius: 13px;
+    padding:13px 38px;
+    border:#941A1F;
+    background-color: #941A1F;
+    color:white;
+    font-size:20px;
+    transition:opacity 0.3s;
+    text-decoration: none;
+}
+
+
+.login_button:hover{
+    opacity:0.8;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #641317;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size:smaller;
+    margin-left: 174px;
+    transition: background-color 0.2s 0.1s, transform 0.2s 0.1s;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.topnav a:hover {
+    background-color: #941A1F;
+    transform: scale(1.1);
+    
+}
+
+.mainpic{
+    width:auto;
+    float:right;
+    max-width: 43%;
+    margin-right:20px ;
+    height: auto;
+    align-self: center;
+
+}
+
+.maintext{
+    margin-top: 40px;
+    margin-bottom: 1px;
+}
+
+.Feedbacktext{
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom:0px;
+    color:#941A1F;
+    
+}
+
+.Text {
+    max-width: 600px; 
+    flex:top;
+    padding-right: 20px;
+}
+
+.para{
+    margin-top: 5px;
+}
+
+.read-more{
+    border-radius:5px;
+    height:35px;
+    color:white;
+    width:120px;
+    border:none;
+    background-color: #941A1F;
+    transition:opacity 0.3s;
+}
+
+.read-more:hover{
+    opacity:0.8;
+    cursor:pointer;
+}
+.content {
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+
+.logo1{
+    height:70px;
+    width:auto;
+    float:left;
+    margin-bottom: 5px;;
+}
+
+
+.footer {
+    text-align: center;
+    background-color: #2C2C2D;
+    color: #fff;
+    padding: 5px;
+    display:block;
+    align-items:center;
+    overflow: hidden;
+}
+
+.footer a {
+
+    color:#828283;
+    text-align: center;
+    padding: 20px;
+    margin-top: 4px;
+    text-decoration: none;
+    
+   
+}
+
+.footertext{
+    margin-top:10px;
+    display:flex;
+    padding-left: 200px;
+
+}
+
+.p{
+    margin-top: 23px;
+    margin-left:250px;
+    color:#828283;
+}
+.icons{
+    justify-content: space-between;
+    margin-left:250px;
+    margin-top: 23px;
+}
+.insta,.face{
+    height:22px;
+    width:auto;
+    margin-left: 10px;
+    
+}
+
