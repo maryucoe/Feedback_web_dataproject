@@ -1,0 +1,113 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo{
+    height:80px;
+    width:auto;
+    margin: 10px;
+}
+
+.user{
+    height:60px;
+    width:auto;
+    margin:20px;
+    float:right;
+}
+
+.username{
+    float:right;
+    font-weight:100;
+    font-size:20px;
+    margin-top: 36px;
+}
+
+
+.header{
+    overflow: hidden;
+    background-color: #641317;
+}
+
+.header a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    margin-left: 342px;
+    transition: background-color 0.2s 0.1s, transform 0.2s 0.1s;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.header a:hover{
+    background-color: #941A1F;
+    transform: scale(1.1);
+}
+
+.ava{
+    font-weight:10;
+    text-align: center;
+    color:#941A1F;
+}
+
+.survey{
+    background-color: #F1F1F1;
+    margin:30px;
+    border-radius: 10px;
+    padding:1px;
+    padding-left:20px;
+}
+
+.class-survey{
+    color:#941A1F;
+    margin-bottom:0px;
+    float:left;
+    
+}
+
+.infocontainer{
+    display:flex;
+    margin-top: 100px;
+    
+}
+
+.admin{
+    color:#828283;
+    text-align: left;
+    margin-left:30px;
+    margin-top: 0px;
+}
+
+.date{
+    color:#828283;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.buttonstyle{
+    border:none;
+    float:right;
+    margin-right: 60px;
+    background-color: #941A1F;
+    padding:10px;
+    margin-top: 50px;
+    color:white;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: small;
+    text-decoration: none;
+
+}
+
+.footer{
+    background-color: #2C2C2D;
+    padding: 30px;
+    margin-top: 78px;
+}
+

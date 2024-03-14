@@ -60,7 +60,7 @@ body {
     width:auto;
     float:right;
     max-width: 43%;
-    margin-right:20px ;
+    margin-right:80px ;
     height: auto;
     align-self: center;
 
@@ -82,7 +82,7 @@ body {
 .Text {
     max-width: 600px; 
     flex:top;
-    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .para{
