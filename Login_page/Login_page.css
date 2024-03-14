@@ -71,4 +71,8 @@ body {
     margin-top: 78px;
 }
 
-
+.copyright {
+    text-align: center;
+    color:#828283;
+    font-size: 12px;
+}
