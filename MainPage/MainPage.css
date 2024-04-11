@@ -3,6 +3,7 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
+   
 }
 
 .logo{
@@ -35,8 +36,7 @@ body {
     overflow: hidden;
     background-color: #641317;
     display:flex;
-    justify-content: start;
-    padding-left: 174px;
+    justify-content: center;
     align-items: center;
 
 }
@@ -45,11 +45,10 @@ body {
     
     display: block;
     color: #f2f2f2;
-    text-align: center;
     padding: 20px 16px;
     text-decoration: none;
-    font-size:smaller;
-    margin-left: 115px;
+    font-size:medium;
+    margin-right: 100px;
     transition: background-color 0.2s 0.1s, transform 0.2s 0.1s;
     border-radius: 50px;
     box-sizing: border-box;
@@ -63,17 +62,14 @@ body {
 
 .mainpic{
     width:auto;
-    float:right;
-    max-width: 43%;
-    margin-right:80px ;
-    height: auto;
-    align-self: center;
-
+    height:480px;
+    margin:auto;
+    
 }
 
 .maintext{
-    margin-top: 40px;
-    margin-bottom: 1px;
+    margin-top: 50px;
+    margin-bottom:1px;
 }
 
 .Feedbacktext{
@@ -82,12 +78,14 @@ body {
     margin-bottom:0px;
     color:#941A1F;
     
+    
 }
 
 .Text {
     max-width: 600px; 
     flex:top;
-    padding-left: 20px;
+    padding-left: 40px;
+    margin-bottom: 10px;
 }
 
 .para{
@@ -99,7 +97,9 @@ body {
     height:35px;
     color:white;
     width:120px;
-    border:none;
+    padding: 8px;
+    font-size: smaller;
+    text-decoration: none;
     background-color: #941A1F;
     transition:opacity 0.3s;
 }
@@ -110,40 +110,49 @@ body {
 }
 .content {
     display:flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 20px;
-    margin-left: 20px;
+    padding: 9px;
+    
 }
 
 
 .logo1{
-    height:70px;
+    height:60px;
     width:auto;
-    float:left;
-    margin-bottom: 5px;;
+    padding:10px;
+    margin-right:170px;
+    margin-left:20px;
+
+
 }
 
-
-.footer {
+.bottomnav{
+    display: flex;
+    align-items:center;
     text-align: center;
+    margin-top: 0;
+   
+
+
+}
+.footer {
+    
     background-color: #2C2C2D;
     color: #fff;
-    padding: 5px;
-    display:block;
-    align-items:center;
-    overflow: hidden;
+    bottom:0;
+    text-align: center;
+    position:fixed;
+    right:0;
+    left:0;
+    
 }
 
 .footer a {
 
     color:#828283;
-    text-align: center;
     padding: 20px;
-    margin-top: 4px;
     text-decoration: none;
     transition: color 0.3s;
+   
 }
 
 footer a:hover{
@@ -151,16 +160,15 @@ footer a:hover{
 }
 
 .footertext{
-    margin-top:10px;
+   
     display:flex;
-    padding-left: 200px;
-
+    
 }
 
 .p{
-    margin-top: 23px;
     margin-left:250px;
     color:#828283;
+   
 }
 .icons{
     justify-content: space-between;
@@ -169,6 +177,9 @@ footer a:hover{
     color:white;
    
 }
+
+
+
 .insta,.face{
     height:22px;
     width:auto;
