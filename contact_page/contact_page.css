@@ -1,0 +1,144 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.logo{
+   height:80px;
+   width:auto;
+   margin-top: 20px;
+   margin-bottom: 15px;
+   margin-left:15px;
+}
+
+.header-text{
+    text-align: center;
+    font-size:xx-large;
+    color:#941A1F;
+    margin-top:50px;
+    margin-right: 87px;
+}
+.fpic{
+    width:450px;
+    height:auto;
+    float:right;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #641317;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.topnav a {
+    
+    display: block;
+    color: #f2f2f2;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size:medium;
+    margin-right: 100px;
+    transition: background-color 0.2s 0.1s, transform 0.2s 0.1s;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.topnav a:hover {
+    background-color: #941A1F;
+    transform: scale(1.1);
+    
+}
+
+.toptext {
+    margin-left: 30px;
+    margin-top: 60px;
+    font-size: large;
+}
+
+.admin_text{
+    margin-left: 100px;
+    font-size:25px;
+    background-color: #f2f2f2;
+    max-width: 100px;
+    padding: 20px;
+    margin: 30px auto;
+    width: 90%; 
+    max-width: 1500px; 
+    background-color: #F1F1F1;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+.admin {
+    display: flex;        
+    align-items: center;  
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.admin-icon {
+    height: 50px;
+    width: auto;
+    margin-bottom: 10px;    
+    margin-right: 10px;   
+}
+
+.instructor_text{
+    margin-left: 100px;
+    font-size:25px;
+    background-color: #f2f2f2;
+    max-width: 100px;
+    padding: 20px;
+    margin: 30px auto;
+    width: 90%; 
+    max-width: 1500px; 
+    background-color: #F1F1F1;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+.instructor {
+    display: flex;        
+    align-items: center;  
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.instructor-icon {
+    height: 50px;
+    width: auto;
+    margin-bottom: 10px;    
+    margin-right: 10px;   
+}
+
+.all{
+    margin-bottom: 30px;
+}
+
+.text-style{
+    text-decoration: none;
+    color: #000;
+}
+
+.text-style:hover{
+    text-decoration:underline;
+}
+
+.footer {
+    background-color: #2C2C2D;
+    padding:10px;
+    bottom:0;
+    position:static;
+    right:0;
+    left:0;
+}
+
+
+
